@@ -1,0 +1,25 @@
+/* App.css o Voting.css */
+
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.post p {
+    margin: 5px 0;
+}
